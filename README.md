@@ -12,13 +12,13 @@ The data is avaiable [here, through Google Drive](https://drive.google.com/drive
 For my experiments, I have to a large extent re-used previous authors' code (see the acknowledgements section below). Therefore, when downloading the repo, to download everything correctly, please use
 
 ```
-git clone --recurse-submodules 
+git clone --recurse-submodules https://github.com/Filco306/challenging-structural-assumptions
 ```
 
 or
 
 ```
-git clone LINK
+git clone https://github.com/Filco306/challenging-structural-assumptions
 cd challenging-structural-assumptions
 git submodule update --init
 ```
@@ -34,6 +34,10 @@ for Knowledge Graphs (ZS-GAN)](https://arxiv.org/pdf/2001.02332.pdf) - [code her
  (OntoZSL)](https://dl.acm.org/doi/10.1145/3442381.3450042) - [code here](https://github.com/genggengcss/OntoZSL).
 
 In my experiments, I re-used their code (instructions how to use these can be located in the READMEs of the respective folders). 
+
+Also, I would like to acknowledge:
+- The work of many contributors to Wikidata :) 
+- The creators of NELL!
 
 ## Cite this work
 
@@ -53,7 +57,7 @@ If you use the additional textual data I collected for these tasks, don't forget
   url       = {https://aclanthology.org/2022.lrec-1.677}
 }
 ```
-
+ 
 Also, 
 - When using the `NELL-ZS` and `Wiki-ZS`, don't forget to cite [Generative Adversarial Zero-Shot Relational Learning
 for Knowledge Graphs](https://arxiv.org/pdf/2001.02332.pdf), or if you run any code from the submodule `Zero-shot-knowledge-graph-relational-learning`.
