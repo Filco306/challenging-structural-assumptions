@@ -1,0 +1,9 @@
+[submodule "fewshot/FAAN"]
+	path = fewshot/FAAN
+	url = https://github.com/JiaweiSheng/FAAN
+[submodule "zeroshot/Zero-shot-knowledge-graph-relational-learning"]
+	path = zeroshot/Zero-shot-knowledge-graph-relational-learning
+	url = https://github.com/Panda0406/Zero-shot-knowledge-graph-relational-learning
+[submodule "zeroshot/OntoZSL"]
+	path = zeroshot/OntoZSL
+	url = https://github.com/genggengcss/OntoZSL
