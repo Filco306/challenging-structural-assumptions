@@ -1,6 +1,6 @@
 # FewShot experiments with FAAN
 
-__DISCLAIMER__: I want to acknowledge the work of the original authors of the [FAAN](https://github.com/JiaweiSheng/FAAN) architecture. Please make sure to cite [their paper, Adaptive Attentional Network for Few-Shot Knowledge Graph Completion](https://aclanthology.org/2020.emnlp-main.131/) if you use this code, since I am re-using their architecture. 
+__NOTE__: I want to acknowledge the work of the original authors of the [FAAN](https://github.com/JiaweiSheng/FAAN) architecture. Please make sure to cite [their paper, Adaptive Attentional Network for Few-Shot Knowledge Graph Completion](https://aclanthology.org/2020.emnlp-main.131/) if you use this code, since I am re-using their architecture. 
 
 ## Run experiments 
 

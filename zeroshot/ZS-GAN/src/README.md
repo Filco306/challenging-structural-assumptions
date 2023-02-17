@@ -2,26 +2,26 @@
 
 Below follows original readme of paper. Have a look at [their source code here](https://github.com/Panda0406/Zero-shot-knowledge-graph-relational-learning). 
 
-# Generative Adversarial Zero-Shot Relational Learning for Knowledge Graphs
+## Generative Adversarial Zero-Shot Relational Learning for Knowledge Graphs
 
 PyTorch implementation of zero-shot knowledge graph learning model described in our AAAI 2020 paper [Generative Adversarial Zero-Shot Relational Learning for Knowledge Graphs](https://arxiv.org/pdf/2001.02332.pdf). In this work, we propose a solution for zero-shot knowledge graph relational learning via generative adversarial learning.
 
-## Steps to run the experiments
+### Steps to run the experiments
 
-### Requirements
+#### Requirements
 * ``Python 3.6 ``
 * ``>= PyTorch 1.0.0``
 * ``tqdm``
 
-### Datasets and word embeddings
+#### Datasets and word embeddings
 * NELL-ZS: Please download([Baidu Yun](https://pan.baidu.com/s/1rvhmrl36KCfHYCnggHYl5Q) with code ``be85`` or [Google Drive](https://drive.google.com/file/d/1fng-IxtweEb516vScwlrkzgEP6EYQv-g/view?usp=sharing)) and put it into this directory.
 * Wiki-ZS: Please download([Baidu Yun](https://pan.baidu.com/s/1GfhHLvd_LS_kfm05fvlKfg) with code ``9zh5`` or [Google Drive](https://drive.google.com/file/d/1xGB3n0ioRfl838JSpk3CzB7h7mE9kKYj/view?usp=sharing)) and put it into directory ``./origin_data``.
 
-### Training on NELL-ZS dataset
+#### Training on NELL-ZS dataset
 * python trainer.py --pretrain_feature_extractor
 
 
-### Reference
+#### Reference
 ```
 @article{qin2020generative,
   title={Generative Adversarial Zero-Shot Relational Learning for Knowledge Graphs},
