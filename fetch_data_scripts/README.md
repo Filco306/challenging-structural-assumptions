@@ -1,3 +1,1 @@
-This folder (`fetch_data_scripts`) contains the code used for collecting and preparing descriptions for the entities and relations in the Wikidata graph. Do note that this code was used interactively; it is not an entirely sequential script in `query_wikidata.py`, but all the code necessary for retrieval should be there. In the file `translate_mappings.py` you will find the original code used to translate the non-english descriptions. 
-
-UPDATE: I have updated the script, so it should work.
+This folder (`fetch_data_scripts`) contains the code used for collecting and preparing descriptions for the entities and relations in the Wikidata graph. In the file `translate_mappings.py` you will find the original code used to translate the non-english descriptions. 
